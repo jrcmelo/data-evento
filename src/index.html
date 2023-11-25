@@ -3,48 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Evento</title>
+    <link rel="icon" href="images/Icon.png" type="image" size="16x16">
+    <title>CPGoiás4</title>
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- Style -->
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC"> <!--//TODO Trocar conteudo-->
+            <img class="hero__logo" src="./images/CP_GOIAS_LOGO.webp" alt="Campus Party">
             <p class="hero__text">
-                A maior festa você já viu começa em 10d 12h 20m 15s <!--//TODO 07/12 ou 04/12-->
+                Garanta sua vaga para CPGoiás4 o evento <span id="contador"></span>
             </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
-                        Lorem ipsum - dolor sit amet - consectetur. <!--//TODO Trocar conteudo-->
+                        Av. Perimetral Norte-8303, Fazenda Caveiras, Goiânia
                     </li>
                     <li class="infos-bar__infos__item">
-                        <b>Preço</b>
-                        A partir de R$999,90 <!--//TODO Trocar conteudo-->
+                        <b>Ingressos</b>
+                        A partir de R$190
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Quando</b>
-                        Um dia ai... em um horario <!--//TODO Trocar conteudo-->
+                        29/05/2024 as 08h
                     </li>
                 </ul>
-                <a href="#" class="button button--primary">
+                <a href="https://brasil.campus-party.org/cpgoias4/ingressos/" class="button button--primary">
                     Garanta sua vaga
                 </a>
             </div>
         </div>
     </header>
-    <section>
-        <div class="container">
-
+    
+    <section class="event event--Open">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Área Open</h2>
+                <p class="event__details__description">
+                    O espaço mais visitado da Campus Party, totalmente gratuito e com atividades para toda a família. Lá você vai encontrar uma variedade de temas que compõem a Campus Party, entre experiências, exposições e atividades. É na Área Open que despertamos o interesse pela tecnologia, ciência e disruptividade nos novos campuseiros de todas as idades.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Area-Open.webp" alt="Area Open">
+        </div>
+    </section>
+    <section class="event event--Arena event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Arena</h2>
+                <p class="event__details__description">
+                    Nosso Hub de comunidades, lotado de conteúdos transformadores entre  palestras, workshops, hackathons, e desafios diversos. O lugar perfeito para seu aperfeiçoamento profissional, descobrimento de interesses e busca de novas conexões.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Arena.webp" alt="Arena">
+        </div>
+    </section>
+    <section class="event event--Camping">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Camping</h2>
+                <p class="event__details__description">
+                    O coração da Campus, um espaço de convivência onde os membros da nossa comunidade podem ficar acampados durante o evento, vivendo essa experiência em tempo integral e aproveitando tudo que a Campus Party tem a oferecer.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Camping.webp" alt="Camping">
+        </div>
+    </section>
+    <section class="event event--Include event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Include</h2>
+                <p class="event__details__description">
+                    O Include by Campus Party viabiliza o acesso a tecnologia para transformar histórias. 
+                    <br>O programa social oferece qualificação a jovens de 12 a 20 anos, tornando-os protagonistas de suas próprias vidas e reparando-os para o mercado de trabalho. 
+                    <br>Atualmente o programa conta com 62 laboratórios em 53 cidades situadas em 10 estados brasileiros, rumo ao objetivo de construir 10 mil laboratórios Include pelo Brasil. 
+                    <br>Você também pode fazer parte dessa história como voluntário ou empresa parceira! Vamos juntos?
+                </p>
+            </div>
+            <img class="event__image" src="./images/Include.webp" alt="Include">
         </div>
     </section>
     <!-- Scripts JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

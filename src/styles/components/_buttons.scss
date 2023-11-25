@@ -1,3 +1,5 @@
+@use '../configs/variables.scss';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -7,8 +9,8 @@
     white-space: nowrap;
 
     &--primary {
-        color: #fff;
-        background-color: #4F2AC3; //TODO Trocar cor?
+        color: variables.$textColor1;
+        background-color: variables.$degradeColor1;
     }
 
     @media (max-width: 640px) {
