@@ -6,7 +6,7 @@
 
 <br>
 
-## 📎 Sumario
+## 📎 Sumário
 - 📕 Sobre
 - 🛠️ Executando projeto
 - ⚙ Tecnologias Utilizadas
@@ -20,7 +20,7 @@ Este projeto é uma landing page do evento CPGoiás4, permitindo que o usuario c
 
 <br>
 
-## 🛠️ Executando projeto
+## 🛠️ Como executar o projeto
 
 - Instale as dependências do projeto executando ``npm install`` no diretório do projeto.
 - Execute o comando ``npm run dev`` para iniciar um servidor de desenvolvimento local e gerar a build de desenvolvimento.
