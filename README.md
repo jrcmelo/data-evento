@@ -29,7 +29,7 @@ Este projeto é uma landing page de um evento ficticio, permitindo que o usuario
 
 ## ⚙ Tecnologias Utilizadas
 
-<img src="assets/html.png" alt="HTML" /><img src="assets/css-3.png" alt="CSS3" /><img src="assets/js.png" alt="JavaScript" /><img src="assets/sass.png" alt="SASS" />
+<img src="assets/html.png" alt="HTML" />  <img src="assets/css-3.png" alt="CSS3" />  <img src="assets/js.png" alt="JavaScript" />  <img src="assets/sass.png" alt="SASS" />
 
 <br>
 
