@@ -16,7 +16,7 @@
 
 ## 📕 Sobre
 
-Este projeto é uma landing page de um evento ficticio, permitindo que o usuario consiga ver em tempo real quanto tempo falta para o evento. Para o desenvolvimento dessa pagina foi utilizado sass, bibliotecas js para animação dos elementos, entre outras ferramentas.
+Este projeto é uma landing page do evento CPGoiás4, permitindo que o usuario consiga ver em tempo real quanto tempo falta para o evento. Para o desenvolvimento dessa pagina foi utilizado sass, bibliotecas js para animação dos elementos, entre outras ferramentas.
 
 <br>
 
